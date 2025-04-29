@@ -421,7 +421,9 @@ b, strong {
 ._container_ud4nd_29 {
   padding-top: 64px;
 }
-
+._jobPosting_12ylk_379:hover, ._jobPosting_12ylk_379:active {
+  background: transparent;
+}
 ._tabs_4fqrp_30 {
   box-shadow: inset 0 -1px 0 0 var(--colorNeutral200);
 }
