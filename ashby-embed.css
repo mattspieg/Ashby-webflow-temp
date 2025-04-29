@@ -292,9 +292,11 @@
 .ashby-job-posting-brief {
   padding: 32px 0px;
   background-color: transparent;
+  transition: background-color 0.3s ease;
+  margin-left: 0px;
 }
 .ashby-job-posting-brief:hover {
-  background-color: --colorNeutral600Transparent;
+  background-color: var(--colorNeutral100A);
 }
 
 
@@ -350,4 +352,7 @@
 /* CUSTOM STYLES */
 ._titles_ud4nd_34 {
   margin: 0px;
+}
+._content_ud4nd_71 {
+  padding: 0px;
 }
