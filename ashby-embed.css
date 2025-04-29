@@ -501,4 +501,7 @@ b, strong {
   ._descriptionText_4fqrp_201 ol, ._descriptionText_4fqrp_201 ul {
     margin: var(--spacingNormal) 0 var(--spacingNormal) var(--spacingNormal);
   }
+  ._container_101oc_29 {
+    padding: var(--spacingLarge) 0px;
+  }
 }
