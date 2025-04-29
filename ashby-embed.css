@@ -2,6 +2,125 @@
 
 /* These variables can be used to control values throughout the job board. */
 :root {
+    --colorNeutral800: #373e4d;
+    --colorNeutral700: #545b6d;
+    --colorNeutral600: #7d8699;
+    --colorNeutral500: #a8aebd;
+    --colorNeutral400: #c2c7d1;
+    --colorNeutral300: #d7dae0;
+    --colorNeutral200: #e5e6e8;
+    --colorNeutral100: #f7f8fa;
+    --colorNeutral000: #fff;
+    --colorNeutral800A: rgb(0% 3.5% 11% / 78%);
+    --colorNeutral700A: rgb(0% 4.0936% 14.62% / 67%);
+    --colorNeutral600A: rgb(0% 6.9231% 21.538% / 51%);
+    --colorNeutral500A: rgb(0% 6.8966% 24.138% / 34%);
+    --colorNeutral400A: rgb(0% 8.1967% 24.59% / 24%);
+    --colorNeutral300A: rgb(0% 7.5% 22.5% / 16%);
+    --colorNeutral200A: rgb(0% 3.8462% 11.538% / 10%);
+    --colorNeutral100A: rgb(0% 12.5% 37.5% / 3%);
+    --colorNeutral000A: rgb(100% 100% 100% / 0%);
+    --colorPrimary500A: rgb(7.82 0 234.47 / 13%);
+    --colorSecondary900: hsl(322deg 65% 54.5%);
+    --colorPrimary900: #0a1d66;
+    --colorPrimary600: #2646cc;
+    --colorNegative800: #891b1b;
+    --colorNegative600: #dc3030;
+    --colorNegative200: #fce8e8;
+    --colorPositive800: #197729;
+    --colorPositive600: #29b458;
+    --colorPositive200: #eafcec;
+    --colorWarning900: #5c4813;
+    --colorWarning800: #8c6d1f;
+    --colorWarning600: #f4ca64;
+    --colorInfo100: hsl(206deg 100% 99.2%);
+    --colorInfo200: hsl(210deg 100% 98%);
+    --colorInfo300: hsl(209deg 100% 96.5%);
+    --colorInfo400: hsl(210deg 98.8% 94%);
+    --colorInfo500: hsl(209deg 95% 90.1%);
+    --colorInfo600: hsl(209deg 81.2% 84.5%);
+    --colorInfo700: hsl(208deg 77.5% 76.9%);
+    --colorInfo800: hsl(206deg 81.9% 65.3%);
+    --colorInfo900: hsl(206deg 100% 50%);
+    --colorInfo1000: hsl(208deg 100% 47.3%);
+    --colorInfo1100: hsl(211deg 100% 43.2%);
+    --colorInfo1200: hsl(211deg 100% 15%);
+    --colorNeutralShadow: rgb(28 26 51 / 25%);
+    --colorPrimaryShadow: rgb(24 20 87 / 25%);
+    --colorNeutral100Transparent: rgb(248 247 250 / 0%);
+    --colorNeutral600Transparent: rgb(125 134 153 / 25%);
+    --colorShadowPrimaryXLight: rgb(38 70 204 / 10%);
+    --colorShadowPrimaryLight: rgb(38 70 204 / 20%);
+    --widthMaxContent: 1024px;
+    --widthMaxJobBoard: 720px;
+    --widthMaxSubscriptionPreferences: 720px;
+    --spacingXxxsmall: 2px;
+    --spacingXxsmall: 4px;
+    --spacingXsmall: 8px;
+    --spacingSmall: 12px;
+    --spacingNormal: 16px;
+    --spacingLarge: 24px;
+    --spacingXlarge: 32px;
+    --spacingXxlarge: 48px;
+    --spacingXxxlarge: 64px;
+    --letterSpacingTight: -.01em;
+    --letterSpacingWide: .04em;
+    --letterSpacingXwide: .1em;
+    --borderRadiusContainer: 6px;
+    --borderRadiusControl: 10px;
+    --borderRadiusButton: 25px;
+    --borderRadiusCircle: 100%;
+    --borderWidthThin: .5px;
+    --borderWidthNormal: 1px;
+    --borderWidthBold: 2px;
+    --borderWidthHeavy: 3px;
+    --scrollbarThickness: 8px;
+    --meetingIntroOrganizerAvatarDim: 31.25vw;
+    --meetingIntroOrganizerAvatarMaxDim: 250px;
+    --meetingOverviewEventAttendeeAvatarDim: 30px;
+    --fontFamily: "Whitney SSm", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Helvetica", "Arial", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji";
+    --fontSizeXxxxlarge: 40px;
+    --fontSizeXxxlarge: 30px;
+    --fontSizeXxlarge: 24px;
+    --fontSizeXlarge: 20px;
+    --fontSizeLarge: 18px;
+    --fontSizeNormal: 16px;
+    --fontSizeSmall: 14px;
+    --fontSizeXsmall: 12px;
+    --fontSizeXxsmall: 10px;
+    --fontWeightNormal: 400;
+    --fontWeightLightBold: 500;
+    --fontWeightMediumBold: 600;
+    --fontWeightHeavyBold: 700;
+    --lineHeightSingle: 1.15;
+    --lineHeightTitle: 1.4;
+    --lineHeightNormal: 1.5;
+    --transitionDurationFast: .1s;
+    --transitionDuration: .25s;
+    --transitionDurationSlow: .6s;
+    --transitionFunction: ease-in-out;
+    --zContentBelow: -1;
+    --zContent: 0;
+    --zContentAbove: 1;
+    --zContentXabove: 2;
+    --zContentXxabove: 3;
+    --zSelected: 4;
+    --zNav: 5;
+    --zOnHoverSelect: 6;
+    --zModal: 7;
+    --zToast: 8;
+    --navMobileHeight: 75px;
+    --navDesktopHeight: 100px;
+    --fullScreenLoadingDesktopHeight: 500px;
+    --fullScreenLoadingMobileHeight: 400px;
+    --buttonLineHeight: 1;
+    --calendarJewelDim: 4px;
+    --calendarJewelSpacing: 4px;
+    --selectIconDim: 16px;
+    --checkboxAndRadioDim: 24px;
+    --checkboxAndRadioCheckDim: 12px;
+    --tabSliderHeight: 2px;
+
     /*  Darker primary color
     WARNING - This can be set in the Ashby admin under theme settings!
     If you modify, you should make sure your colors work with the settings there. */
@@ -109,6 +228,16 @@
   font-family: Besley, serif, sans-serif;
   font-weight: var(--fontWeightNormal);
   font-size: var(--fontSizeXlarge);
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ashby-department-heading::before {
+  content: "";
+  width: 1.2em;
+  height: 1.2em;
+  background-color: var(--colorNeutral900);
 }
 
 /* The heading of a single team. */
