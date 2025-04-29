@@ -178,6 +178,7 @@
 
 body {
   background: transparent;
+  color: var(--colorGray500);
 }
 footer {
   display: none !important;
@@ -363,4 +364,13 @@ footer {
 }
 ._content_ud4nd_71 {
   padding: 0px;
+}
+
+._tab_4fqrp_30 {
+  color: var(--colorGray600);
+}
+
+._tab_4fqrp_30:not(._active_4fqrp_60):hover {
+  border-bottom-color: var(--colorGray200);
+  color: var(--colorGray700);
 }
