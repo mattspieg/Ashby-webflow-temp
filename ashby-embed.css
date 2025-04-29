@@ -338,6 +338,7 @@ footer {
   font-family: Besley, serif, sans-serif;
   font-weight: var(--fontWeightNormal);
   letter-spacing: -0.01em;
+  font-size: var(--fontSizeXxxlarge);
 }
 
 /* The left pane of the job posting, with the job posting details */
