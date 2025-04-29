@@ -251,9 +251,6 @@
   font-weight: var(--fontWeightNormal);
   font-size: var(--fontSizeXlarge);
   margin-left: 0px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
 }
 .ashby-department-heading::before {
   content: "";
@@ -261,6 +258,8 @@
   width: 1.2em;
   height: 1.2em;
   background-color: var(--colorGray900);
+  margin-right: 8px;
+  vertical-align: middle;
 }
 
 /* The heading of a single team. */
@@ -303,10 +302,6 @@
 /* The container for the details of the job posting, in the details pane. */
 .ashby-job-posting-brief-details {
   color: var(--colorGray600);
-}
-
-.ashby-job-posting-brief-details:nth-child(2n) {
-  color: var(--colorGray300);
 }
 
 /* The container for the list of job post briefings. */
