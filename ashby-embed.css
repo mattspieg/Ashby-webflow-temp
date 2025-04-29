@@ -288,11 +288,8 @@
   transition: background-color 0.3s ease;
   margin-left: 0px;
   border-radius: 8px;
-  border: 1px solid var(--colorGray200);
 }
-.ashby-job-posting-brief:last-child {
-  border-bottom: 0px solid var(--colorGray200);
-}
+
 .ashby-job-posting-brief:hover {
   background-color: var(--colorNeutral100A);
 }
@@ -311,6 +308,13 @@
 
 /* The container for the list of job post briefings. */
 .ashby-job-posting-brief-list {}
+
+.ashby-job-posting-brief-list>a {
+  border-bottom: 1px solid var(--colorGray200);
+}
+.ashby-job-posting-brief-list:last-child {
+  border-bottom: 0px solid var(--colorGray200);
+}
 
 /* The title of the job posting in the details pane. */
 .ashby-job-posting-brief-title {
