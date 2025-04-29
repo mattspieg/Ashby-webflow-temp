@@ -160,11 +160,6 @@
   --colorSolidGray11: #646464;
   --colorSolidGray12: #202020;
 }
-@media only screen and (max-width: 768px) {
-  ::root {
-    --fontSizeHuge: 40px;
-  }
-}
 
 /* ========================= */
 /* Basic Elements */
@@ -346,6 +341,7 @@ b, strong {
 @media only screen and (max-width: 768px) {
   .ashby-job-posting-heading {
     letter-spacing: -0.02em;
+    font-size: var(--fontSizeXxxxlarge);
   }
 }
 
@@ -502,7 +498,7 @@ b, strong {
 }
 
 @media only screen and (max-width: 768px) {
-  ul {
-    padding-inline-start: 16px;
+  ._descriptionText_4fqrp_201 ol, ._descriptionText_4fqrp_201 ul {
+    margin: var(--spacingNormal) 0 var(--spacingNormal) var(--spacingNormal);
   }
 }
