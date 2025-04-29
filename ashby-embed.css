@@ -256,7 +256,7 @@ b, strong {
   font-family: Besley, serif, sans-serif;
   font-weight: var(--fontWeightNormal);
   font-size: var(--fontSizeXlarge);
-  color: var(--colorGray900);
+  color: var(--colorNeutral900);
   margin-left: 0px;
   display: inline;
 }
@@ -302,7 +302,7 @@ b, strong {
 }
 
 .ashby-job-posting-brief-list>a:last-child .ashby-job-posting-brief {
-  border-bottom: 0px solid var(--colorGray200);
+  border-bottom: 0px solid var(--colorNeutral200);
 }
 
 /* The heading of a department name. Departments group teams. */
@@ -313,7 +313,7 @@ b, strong {
 
 /* The container for the details of the job posting, in the details pane. */
 .ashby-job-posting-brief-details {
-  color: var(--colorGray600);
+  color: var(--colorNeutral600);
 }
 
 /* The container for the list of job post briefings. */
