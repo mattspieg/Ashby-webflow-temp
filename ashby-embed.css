@@ -375,17 +375,17 @@ footer {
 }
 
 ._tab_4fqrp_30 {
-  color: var(--colorGray600);
+  color: var(--colorGray700);
   font-family: Besley, serif, sans-serif;
   font-size: var(--fontSizeXxlarge);
 }
 
 ._tab_4fqrp_30:not(._active_4fqrp_60):hover {
   border-bottom-color: var(--colorGray200);
-  color: var(--colorGray700);
+  color: var(--colorGray500);
 }
 
-._button_8wvgw_29{
+._button_8wvgw_29 {
   background-color: var(--colorGray900);
   font-weight: var(--fontWeightLightBold);
 }
