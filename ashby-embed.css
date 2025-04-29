@@ -33,7 +33,7 @@
   /* Other Color Variables */
   --colorPrimary500A: hsla(69, 3%, 50%, 0.13);
   --colorPrimary600: var(--colorNeutral600) !important;
-  --colorPrimary900: var(--colorNeutral900);
+  --colorPrimary900: var(--colorNeutral900) !important;
   --colorSecondary900: hsl(322deg 65% 54.5%);
   --colorNegative800: #891b1b;
   --colorNegative600: #dc3030;
@@ -388,7 +388,7 @@ b, strong {
 }
 
 ._tab_4fqrp_30:not(._active_4fqrp_60):hover {
-  border-bottom-color: var(--colorNeutral200);
+  border-bottom-color: var(--colorNeutral300);
   color: var(--colorNeutral700);
 }
 
@@ -457,9 +457,22 @@ b, strong {
       background: var(--colorNeutral50A);
   }
   ._container_6k3nb_71:hover {
-      border: var(--borderWidthBold) dashed var(--colorNeutral400);
+      border: var(--borderWidthBold) dashed var(--colorNeutral200);
   }
 }
 ._input_1wkz4_28:not([data-disabled=true]):focus-within {
   outline-width: 0px;
+}
+
+._root_xd2v0_1 {
+  background: var(--colorNeutral50A);
+}
+
+._option_y2cw4_33 {
+  border: var(--borderWidthNormal) solid var(--colorNeutral300);
+  margin-left: calc(-1 * var(--borderWidthNormal));
+}
+
+._option_y2cw4_33:hover {
+  background: var(--colorNeutral50A);
 }
