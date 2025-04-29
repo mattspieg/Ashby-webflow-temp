@@ -438,9 +438,11 @@ b, strong {
 
 @media only screen and (min-width: 768px) {
   ._container_6k3nb_71 {
-      border: var(--borderWidthNormal) dashed var(--colorNeutral200);
+      border: var(--borderWidthBold) dashed var(--colorNeutral200);
+      transition: all .3s ease;
   }
   ._container_6k3nb_71:hover {
-      border: var(--borderWidthNormal) dashed var(--colorNeutral300);
+      border: var(--borderWidthBold) dashed var(--colorNeutral400);
+      background: var(--colorNeutral100);
   }
 }
