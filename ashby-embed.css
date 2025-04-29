@@ -425,8 +425,12 @@ b, strong {
   border-bottom: var(--borderWidthNormal) solid var(--colorNeutral200);
   padding: 12px 0px;
   transition: all .3s ease;
+  cursor: auto;
+  color: var(--colorNeutral600)
 }
-
+._input_1wkz4_28::placeholder {
+  color: var(--colorNeutral300)
+}
 ._input_1wkz4_28:hover {
   border-bottom: var(--borderWidthNormal) solid var(--colorNeutral300);
   color: var(--colorNeutral600)
