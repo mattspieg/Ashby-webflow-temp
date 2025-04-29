@@ -378,7 +378,7 @@ b, strong {
 }
 
 ._tabs_4fqrp_30 {
-  border-bottom: var(--borderWidthNormal) solid var(--colorNeutral300);
+  box-shadow: inset 0 -1px 0 0 var(--colorNeutral200);
 }
 
 ._tab_4fqrp_30 {
