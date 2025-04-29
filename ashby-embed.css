@@ -263,6 +263,7 @@ b, strong {
   color: var(--colorNeutral900);
   margin-left: 0px;
   display: inline;
+  margin-bottom: var(--spacingXsmall);
 }
 
 
