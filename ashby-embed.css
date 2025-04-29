@@ -504,9 +504,8 @@ b, strong {
 }
 
 ._label_hkyf8_43 {
-  color: var(--colorNeutral900) !important;
-  font-size: var(--fontSizeNormal) !important;
-  font-weight: var(--fontWeightLightBold) !important;
+  color: var(--colorNeutral900);
+  font-weight: var(--fontWeightLightBold);
 }
 
 ._description_hkyf8_49 {
