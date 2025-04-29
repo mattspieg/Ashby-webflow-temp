@@ -579,5 +579,10 @@ body ._fieldEntry_hkyf8_29 {
   ._descriptionText_4fqrp_201 ol, ._descriptionText_4fqrp_201 ul {
     margin: var(--spacingNormal) 0 var(--spacingNormal) var(--spacingNormal);
   }
+  .ashby-job-posting-brief-list>a {
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+  }
 }
 
