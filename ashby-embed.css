@@ -179,6 +179,9 @@
 body {
   background: transparent;
 }
+footer {
+  display: none;
+}
 
 /* Application autofill input's base layer element. This contains standard copy, a CTA button, and potential validation alerts. */
 .ashby-application-form-autofill-input-base-layer {}
@@ -292,7 +295,6 @@ body {
   background-color: transparent;
   transition: background-color 0.3s ease;
   margin-left: 0px !important;
-  border-radius: 8px !important;
   border-bottom: 1px solid var(--colorGray200);
 }
 
@@ -316,7 +318,9 @@ body {
 }
 
 /* The container for the list of job post briefings. */
-.ashby-job-posting-brief-list {}
+.ashby-job-posting-brief-list {
+  margin-bottom: 32px;
+}
 
 /* The title of the job posting in the details pane. */
 .ashby-job-posting-brief-title {
