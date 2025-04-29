@@ -296,6 +296,7 @@ b, strong {
 /* The container of the job posting details pane. */
 .ashby-job-posting-brief {
   margin-left: 0px !important;
+  background-color: transparent;
 }
 
 .ashby-job-posting-brief-list>a {
