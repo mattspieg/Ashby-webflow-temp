@@ -2,6 +2,33 @@
 
 /* These variables can be used to control values throughout the job board. */
 :root {
+  --colorNeutral50: #f9f9f6;
+  --colorNeutral100: #f1f2ea;
+  --colorNeutral200: #e4e5dc;
+  --colorNeutral300: #cfd0c8;
+  --colorNeutral400: #9c9e94;
+  --colorNeutral500: #82837c;
+  --colorNeutral600: #686963;
+  --colorNeutral700: #4e4e4b;
+  --colorNeutral800: #343432;
+  --colorNeutral900: #1a1a19;
+  --colorNeutral950: #0d0d0c;
+
+  --colorNeutral50A: rgba(249, 249, 246, 0.78);
+  --colorNeutral100A: rgba(241, 242, 234, 0.67);
+  --colorNeutral200A: rgba(228, 229, 220, 0.51);
+  --colorNeutral300A: rgba(207, 208, 200, 0.34);
+  --colorNeutral400A: rgba(156, 158, 148, 0.24);
+  --colorNeutral500A: rgba(130, 131, 124, 0.16);
+  --colorNeutral600A: rgba(104, 105, 99, 0.10);
+  --colorNeutral700A: rgba(78, 78, 75, 0.03);
+  --colorNeutral800A: rgba(52, 52, 50, 0);
+  --colorNeutral900A: rgba(26, 26, 25, 0);
+  --colorNeutral950A: rgba(13, 13, 12, 0.1);
+
+  --colorPrimary500A: hsla(69, 3%, 50%, 0.13);
+
+
     --colorSecondary900: hsl(322deg 65% 54.5%);
     --colorPrimary900: #0a1d66;
     --colorPrimary600: #2646cc;
@@ -144,32 +171,6 @@
     --fontFamily: "Inter", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Helvetica", "Arial", "Apple Color Emoji", "Segoe UI Emoji", sans-serif ;
 
     --colorAppBackground: #f7f8fa;
-
-    --colorNeutral50: #f9f9f6;
-    --colorNeutral100: #f1f2ea;
-    --colorNeutral200: #e4e5dc;
-    --colorNeutral300: #cfd0c8;
-    --colorNeutral400: #9c9e94;
-    --colorNeutral500: #82837c;
-    --colorNeutral600: #686963;
-    --colorNeutral700: #4e4e4b;
-    --colorNeutral800: #343432;
-    --colorNeutral900: #1a1a19;
-    --colorNeutral950: #0d0d0c;
-
-    --colorNeutral50A: rgba(249, 249, 246, 0.78);
-    --colorNeutral100A: rgba(241, 242, 234, 0.67);
-    --colorNeutral200A: rgba(228, 229, 220, 0.51);
-    --colorNeutral300A: rgba(207, 208, 200, 0.34);
-    --colorNeutral400A: rgba(156, 158, 148, 0.24);
-    --colorNeutral500A: rgba(130, 131, 124, 0.16);
-    --colorNeutral600A: rgba(104, 105, 99, 0.10);
-    --colorNeutral700A: rgba(78, 78, 75, 0.03);
-    --colorNeutral800A: rgba(52, 52, 50, 0);
-    --colorNeutral900A: rgba(26, 26, 25, 0);
-    --colorNeutral950A: rgba(13, 13, 12, 0.1);
-
-    --colorPrimary500A: hsla(69, 3%, 50%, 0.13);
 }
 
 body {
