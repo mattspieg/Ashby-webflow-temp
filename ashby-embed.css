@@ -137,6 +137,8 @@
 /* The heading of a department name. Departments group teams. */
 .ashby-job-posting-brief-department-heading {
   font-family: Besley, serif, sans-serif;
+  font-weight: var(--fontWeightNormal);
+  font-size: var(--fontSizeXlarge);
 }
 
 /* The heading of a single team. */
