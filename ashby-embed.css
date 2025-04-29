@@ -331,14 +331,14 @@ footer {
 }
 
 /* The main header on the job posting page */
-.ashby-job-posting-header {
+.ashby-job-posting-header {}
+
+/* The heading of a job post */
+.ashby-job-posting-heading {
   font-family: Besley, serif, sans-serif;
   font-weight: var(--fontWeightNormal);
   letter-spacing: -0.01em;
 }
-
-/* The heading of a job post */
-.ashby-job-posting-heading {}
 
 /* The left pane of the job posting, with the job posting details */
 .ashby-job-posting-left-pane {}
