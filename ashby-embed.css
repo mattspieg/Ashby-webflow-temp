@@ -105,7 +105,11 @@
 .ashby-application-form-texting-consent-description {}
 
 /* The heading of a department, which can have many teams under it. */
-.ashby-department-heading {}
+.ashby-department-heading {
+  font-family: Besley, serif, sans-serif;
+  font-weight: var(--fontWeightNormal);
+  font-size: var(--fontSizeXlarge);
+}
 
 /* The heading of a single team. */
 .ashby-department-heading-level {}
@@ -135,11 +139,7 @@
 }
 
 /* The heading of a department name. Departments group teams. */
-.ashby-job-posting-brief-department-heading {
-  font-family: Besley, serif, sans-serif;
-  font-weight: var(--fontWeightNormal);
-  font-size: var(--fontSizeXlarge);
-}
+.ashby-job-posting-brief-department-heading {}
 
 /* The heading of a single team. */
 .ashby-job-posting-brief-department-heading-level {}
