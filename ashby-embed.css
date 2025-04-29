@@ -120,6 +120,29 @@
     --checkboxAndRadioDim: 24px;
     --checkboxAndRadioCheckDim: 12px;
     --tabSliderHeight: 2px;
+    --colorGray50: #f9f9f6;
+    --colorGray100: #f1f2ea;
+    --colorGray200: #e4e5dc;
+    --colorGray300: #cfd0c8;
+    --colorGray400: #9c9e94;
+    --colorGray500: #82837c;
+    --colorGray600: #686963;
+    --colorGray700: #4e4e4b;
+    --colorGray800: #343432;
+    --colorGray900: #1a1a19;
+    --colorGray950: #0d0d0c;
+    --colorSolidGray1: #fcfcfc;
+    --colorSolidGray2: #f9f9f9;
+    --colorSolidGray3: #f0f0f0;
+    --colorSolidGray4: #e8e8e8;
+    --colorSolidGray5: #e0e0e0;
+    --colorSolidGray6: #d9d9d9;
+    --colorSolidGray7: #cecece;
+    --colorSolidGray8: #bbbbbb;
+    --colorSolidGray9: #8d8d8d;
+    --colorSolidGray10: #838383;
+    --colorSolidGray11: #646464;
+    --colorSolidGray12: #202020;
 
     /*  Darker primary color
     WARNING - This can be set in the Ashby admin under theme settings!
@@ -130,7 +153,6 @@
     WARNING - This can be set in the Ashby admin under theme settings!
     If you modify, you should make sure your colors work with the settings there. */
     /*--colorPrimary600: orange !important;*/
-    --colorNeutral900: #1A1A19;
 
 
     /*  The max width of the job board container */
@@ -235,9 +257,10 @@
 }
 .ashby-department-heading::before {
   content: "";
+  display: inline-block;
   width: 1.2em;
   height: 1.2em;
-  background-color: var(--colorNeutral900);
+  background-color: var(--colorGray900);
 }
 
 /* The heading of a single team. */
@@ -253,7 +276,11 @@
 .ashby-job-board-filters-label {}
 
 /* The heading of the entire job board. */
-.ashby-job-board-heading {}
+.ashby-job-board-heading {
+  font-family: Besley, serif, sans-serif;
+  font-weight: var(--fontWeightNormal);
+  font-size: var(--fontSizeXxlarge);
+}
 
 /* The count of job postings on the job board. */
 .ashby-job-board-heading-count {}
@@ -274,14 +301,22 @@
 .ashby-job-posting-brief-department-heading-level {}
 
 /* The container for the details of the job posting, in the details pane. */
-.ashby-job-posting-brief-details {}
+.ashby-job-posting-brief-details {
+  color: var(--colorGray600);
+}
+
+.ashby-job-posting-brief-details:nth-child(2n) {
+  color: var(--colorGray300);
+}
 
 /* The container for the list of job post briefings. */
 .ashby-job-posting-brief-list {}
 
 /* The title of the job posting in the details pane. */
 .ashby-job-posting-brief-title {
-  color: var(--colorNeutral900);
+  color: var(--colorGray900);
+  font-size: var(--fontSizeLarge);
+  font-weight: var(--fontWeightLightBold);
 }
 
 /* The main header on the job posting page */
@@ -307,3 +342,12 @@
 
 /* A container for any surveys specified for this application form. */
 .ashby-survey-form-container {}
+
+
+
+
+
+/* CUSTOM STYLES */
+._titles_ud4nd_34 {
+  margin: 0px;
+}
