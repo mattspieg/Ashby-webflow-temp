@@ -391,6 +391,7 @@ footer {
 ._button_8wvgw_29 {
   background-color: var(--colorGray900);
   font-weight: var(--fontWeightLightBold);
+  color: white;
 }
 
 ._button_8wvgw_29:hover, ._button_8wvgw_29:active {
