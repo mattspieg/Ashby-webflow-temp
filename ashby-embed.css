@@ -528,7 +528,7 @@ body ._fieldEntry_hkyf8_29 {
 
 @media only screen and (min-width: 768px) {
   ._details_4fqrp_417 {
-      grid-template-columns: 260px 70%;
+      grid-template-columns: 260px 1fr;
       grid-column-gap: 2rem;
   }
 }
