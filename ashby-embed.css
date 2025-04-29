@@ -183,6 +183,9 @@ body {
 footer {
   display: none !important;
 }
+strong {
+  font-weight: var(fontWeightLightBold);
+}
 
 /* Application autofill input's base layer element. This contains standard copy, a CTA button, and potential validation alerts. */
 .ashby-application-form-autofill-input-base-layer {}
@@ -338,7 +341,7 @@ footer {
   font-family: Besley, serif, sans-serif;
   font-weight: var(--fontWeightNormal);
   letter-spacing: -0.01em;
-  font-size: var(--fontSizeXxxlarge);
+  font-size: var(--fontSizeXxxxlarge);
 }
 
 /* The left pane of the job posting, with the job posting details */
@@ -397,4 +400,12 @@ footer {
 
 ._button_8wvgw_29:hover, ._button_8wvgw_29:active {
   background-color: var(--colorGray800);
+}
+
+._heading_101oc_53 {
+  color: var(--colorGray700);
+}
+
+._section_101oc_37 p {
+  font-family: beseley;
 }
