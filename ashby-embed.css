@@ -392,6 +392,15 @@ b, strong {
   color: var(--colorNeutral700);
 }
 
+@media only screen and (min-width: 768px) {
+  ._tab_4fqrp_30, ._slider_4fqrp_69 {
+      margin-left: 0px;
+  }
+  :nth-child(2)._active_4fqrp_60~._slider_4fqrp_69 {
+      transform: translate(200px);
+  }
+}
+
 ._tab_4fqrp_30._active_4fqrp_60 {
   color: var(--colorNeutral900);
 }
