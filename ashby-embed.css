@@ -2,25 +2,6 @@
 
 /* These variables can be used to control values throughout the job board. */
 :root {
-    --colorNeutral800: #373e4d;
-    --colorNeutral700: #545b6d;
-    --colorNeutral600: #7d8699;
-    --colorNeutral500: #a8aebd;
-    --colorNeutral400: #c2c7d1;
-    --colorNeutral300: #d7dae0;
-    --colorNeutral200: #e5e6e8;
-    --colorNeutral100: #f7f8fa;
-    --colorNeutral000: #fff;
-    --colorNeutral800A: rgb(0% 3.5% 11% / 78%);
-    --colorNeutral700A: rgb(0% 4.0936% 14.62% / 67%);
-    --colorNeutral600A: rgb(0% 6.9231% 21.538% / 51%);
-    --colorNeutral500A: rgb(0% 6.8966% 24.138% / 34%);
-    --colorNeutral400A: rgb(0% 8.1967% 24.59% / 24%);
-    --colorNeutral300A: rgb(0% 7.5% 22.5% / 16%);
-    --colorNeutral200A: rgb(0% 3.8462% 11.538% / 10%);
-    --colorNeutral100A: rgb(0% 12.5% 37.5% / 3%);
-    --colorNeutral000A: rgb(100% 100% 100% / 0%);
-    --colorPrimary500A: rgb(7.82 0 234.47 / 13%);
     --colorSecondary900: hsl(322deg 65% 54.5%);
     --colorPrimary900: #0a1d66;
     --colorPrimary600: #2646cc;
@@ -120,17 +101,6 @@
     --checkboxAndRadioDim: 24px;
     --checkboxAndRadioCheckDim: 12px;
     --tabSliderHeight: 2px;
-    --colorGray50: #f9f9f6;
-    --colorGray100: #f1f2ea;
-    --colorGray200: #e4e5dc;
-    --colorGray300: #cfd0c8;
-    --colorGray400: #9c9e94;
-    --colorGray500: #82837c;
-    --colorGray600: #686963;
-    --colorGray700: #4e4e4b;
-    --colorGray800: #343432;
-    --colorGray900: #1a1a19;
-    --colorGray950: #0d0d0c;
     --colorSolidGray1: #fcfcfc;
     --colorSolidGray2: #f9f9f9;
     --colorSolidGray3: #f0f0f0;
@@ -174,17 +144,43 @@
     --fontFamily: "Inter", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Helvetica", "Arial", "Apple Color Emoji", "Segoe UI Emoji", sans-serif ;
 
     --colorAppBackground: #f7f8fa;
-  }
+
+    --colorNeutral50: #f9f9f6;
+    --colorNeutral100: #f1f2ea;
+    --colorNeutral200: #e4e5dc;
+    --colorNeutral300: #cfd0c8;
+    --colorNeutral400: #9c9e94;
+    --colorNeutral500: #82837c;
+    --colorNeutral600: #686963;
+    --colorNeutral700: #4e4e4b;
+    --colorNeutral800: #343432;
+    --colorNeutral900: #1a1a19;
+    --colorNeutral950: #0d0d0c;
+
+    --colorNeutral50A: rgba(249, 249, 246, 0.78);
+    --colorNeutral100A: rgba(241, 242, 234, 0.67);
+    --colorNeutral200A: rgba(228, 229, 220, 0.51);
+    --colorNeutral300A: rgba(207, 208, 200, 0.34);
+    --colorNeutral400A: rgba(156, 158, 148, 0.24);
+    --colorNeutral500A: rgba(130, 131, 124, 0.16);
+    --colorNeutral600A: rgba(104, 105, 99, 0.10);
+    --colorNeutral700A: rgba(78, 78, 75, 0.03);
+    --colorNeutral800A: rgba(52, 52, 50, 0);
+    --colorNeutral900A: rgba(26, 26, 25, 0);
+    --colorNeutral950A: rgba(13, 13, 12, 0.1);
+
+    --colorPrimary500A: hsla(69, 3%, 50%, 0.13);
+}
 
 body {
   background: transparent;
-  color: var(--colorGray500);
+  color: var(--colorNeutral500);
 }
 footer {
   display: none !important;
 }
-strong {
-  font-weight: var(fontWeightLightBold);
+b, strong {
+  font-weight: var(--fontWeightLightBold);
 }
 
 /* Application autofill input's base layer element. This contains standard copy, a CTA button, and potential validation alerts. */
@@ -299,7 +295,7 @@ strong {
   background-color: transparent;
   transition: background-color 0.3s ease;
   margin-left: 0px !important;
-  border-bottom: 1px solid var(--colorGray200);
+  border-bottom: 1px solid var(--colorNeutral200);
 }
 
 .ashby-job-posting-brief:hover {
@@ -328,7 +324,7 @@ strong {
 
 /* The title of the job posting in the details pane. */
 .ashby-job-posting-brief-title {
-  color: var(--colorGray900);
+  color: var(--colorNeutral900);
   font-size: var(--fontSizeLarge);
   font-weight: var(--fontWeightLightBold);
 }
@@ -379,31 +375,31 @@ strong {
 }
 
 ._tab_4fqrp_30 {
-  color: var(--colorGray500);
+  color: var(--colorNeutral500);
   font-family: Besley, serif, sans-serif;
   font-size: var(--fontSizeXxlarge);
 }
 
 ._tab_4fqrp_30:not(._active_4fqrp_60):hover {
-  border-bottom-color: var(--colorGray200);
-  color: var(--colorGray700);
+  border-bottom-color: var(--colorNeutral200);
+  color: var(--colorNeutral700);
 }
 ._tab_4fqrp_30._active_4fqrp_60 {
-  color: var(--colorGray900);
+  color: var(--colorNeutral900);
 }
 
 ._button_8wvgw_29 {
-  background-color: var(--colorGray900);
+  background-color: var(--colorNeutral900);
   font-weight: var(--fontWeightLightBold);
   color: white;
 }
 
 ._button_8wvgw_29:hover, ._button_8wvgw_29:active {
-  background-color: var(--colorGray800);
+  background-color: var(--colorNeutral800);
 }
 
 ._heading_101oc_53 {
-  color: var(--colorGray700);
+  color: var(--colorNeutral700);
 }
 
 ._section_101oc_37 p {
