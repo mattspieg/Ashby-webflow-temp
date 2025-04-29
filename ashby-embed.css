@@ -384,3 +384,12 @@ footer {
   border-bottom-color: var(--colorGray200);
   color: var(--colorGray700);
 }
+
+._button_8wvgw_29{
+  background-color: var(--colorGray900);
+  font-weight: var(--fontWeightLightBold);
+}
+
+._button_8wvgw_29:hover, ._button_8wvgw_29:active {
+  background-color: var(--colorGray800);
+}
