@@ -1,3 +1,6 @@
+/* ========================= */
+/* Fonts */
+/* ========================= */
 @import url('https://fonts.googleapis.com/css2?family=Besley:wght@400&display=swap');
 
 /* ========================= */
@@ -256,7 +259,7 @@ b, strong {
 .ashby-department-heading {
   font-family: Besley, serif, sans-serif;
   font-weight: var(--fontWeightNormal);
-  font-size: var(--fontSizeXlarge);
+  font-size: var(--fontSizeLarge);
   color: var(--colorNeutral900);
   margin-left: 0px;
   display: inline;
@@ -279,7 +282,7 @@ b, strong {
 .ashby-job-board-heading {
   font-family: Besley, serif, sans-serif;
   font-weight: var(--fontWeightNormal);
-  font-size: var(--fontSizeXxlarge);
+  font-size: var(--fontSizeXlarge);
   letter-spacing: -0.01em;
 }
 
@@ -391,7 +394,7 @@ b, strong {
 ._tab_4fqrp_30 {
   color: var(--colorNeutral500);
   font-family: Besley, serif, sans-serif;
-  font-size: var(--fontSizeXxlarge);
+  font-size: var(--fontSizeXlarge);
 }
 
 ._tab_4fqrp_30:not(._active_4fqrp_60):hover {
@@ -504,7 +507,7 @@ body ._fieldEntry_hkyf8_29 {
 
 ._title_xd2v0_64 {
   font-family: Besley, serif, sans-serif;
-  font-size: var(--fontSizeXlarge);
+  font-size: var(--fontSizeLarge);
 }
 
 ._label_hkyf8_43 {
