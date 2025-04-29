@@ -370,9 +370,14 @@ footer {
   padding: 0px;
 }
 
+._container_ud4nd_29 {
+  padding-top: 64px;
+}
+
 ._tab_4fqrp_30 {
   color: var(--colorGray600);
   font-family: Besley, serif, sans-serif;
+  font-size: var(--fontSizeXxlarge);
 }
 
 ._tab_4fqrp_30:not(._active_4fqrp_60):hover {
