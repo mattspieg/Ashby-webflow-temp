@@ -300,7 +300,7 @@ b, strong {
   transition: background-color 0.3s ease;
   margin-left: 0px !important;
   border-bottom: var(--borderWidthNormal) solid var(--colorNeutral200);
-  border-radius: 8px;
+  border-radius: 8px !important;
 }
 
 .ashby-job-posting-brief:hover {
