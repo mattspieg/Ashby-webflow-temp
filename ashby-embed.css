@@ -317,6 +317,22 @@ b, strong {
   border-top: var(--borderWidthNormal) solid transparent !important;
 }
 
+.ashby-job-posting-brief::after {
+  content: "Apply";
+  border-radius: 999px;
+  font-weight: var(--fontWeightLightBold);
+  font-size: var(--fontSizeNormal);
+  padding: 10px 40px;
+  background-color: var(--colorNeutral100);
+  color: var(--colorNeutral900);
+  transition: all .3s ease;
+}
+
+.ashby-job-posting-brief:hover::after {
+  background-color: var(--colorNeutral900);
+  color: white;
+}
+
 /* The heading of a department name. Departments group teams. */
 .ashby-job-posting-brief-department-heading {}
 
