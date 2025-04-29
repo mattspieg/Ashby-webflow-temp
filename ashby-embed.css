@@ -295,16 +295,20 @@ b, strong {
 
 /* The container of the job posting details pane. */
 .ashby-job-posting-brief {
-  padding: var(--spacingLarge) 0px !important;
+  padding: var(--spacingXlarge) 0px !important;
   background-color: transparent;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s
+              border-radius 0.3s
+              padding 0.3s ease;
   margin-left: 0px !important;
   border-bottom: var(--borderWidthNormal) solid var(--colorNeutral200);
-  border-radius: 8px !important;
 }
 
 .ashby-job-posting-brief:hover {
   background-color: var(--colorNeutral100A);
+  border-radius: 8px !important;
+  border-bottom: var(--borderWidthNormal) solid transparent;
+  padding: var(--spacingXlarge) var(--spacingSmall) !important;
 }
 
 .ashby-job-posting-brief-list>a:last-child .ashby-job-posting-brief {
@@ -326,9 +330,6 @@ b, strong {
 .ashby-job-posting-brief-list {
   margin-bottom: var(--spacingXlarge);
   margin-top: var(--spacingXsmall);
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacingXsmall);
 }
 
 /* The title of the job posting in the details pane. */
