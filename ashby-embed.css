@@ -299,9 +299,8 @@ b, strong {
   background-color: transparent;
   transition: background-color 0.3s ease;
   margin-left: 0px !important;
-  margin-top: var(--spacingXsmall);
-  margin-bottom: var(--spacingXsmall);
   border-bottom: var(--borderWidthNormal) solid var(--colorNeutral200);
+  border-radius: 8px;
 }
 
 .ashby-job-posting-brief:hover {
@@ -327,7 +326,9 @@ b, strong {
 .ashby-job-posting-brief-list {
   margin-bottom: var(--spacingXlarge);
   margin-top: var(--spacingXsmall);
-
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacingXsmall);
 }
 
 /* The title of the job posting in the details pane. */
@@ -347,6 +348,7 @@ b, strong {
   letter-spacing: -0.03em;
   font-size: var(--fontSizeHuge);
 }
+
 @media only screen and (max-width: 768px) {
   .ashby-job-posting-heading {
     letter-spacing: -0.02em;
