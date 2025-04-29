@@ -299,6 +299,7 @@ b, strong {
   transition: background-color 0.3s ease;
   margin-left: 0px !important;
   margin-top: var(--spacingXsmall);
+  margin-bottom: var(--spacingXsmall);
   border-bottom: var(--borderWidthNormal) solid var(--colorNeutral200);
 }
 
