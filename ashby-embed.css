@@ -174,7 +174,7 @@ footer {
 }
 
 b, strong {
-  font-weight: var(--fontWeightLightBold);
+  font-weight: var(--fontWeightMediumBold);
 }
 
 
@@ -495,6 +495,22 @@ b, strong {
   box-shadow: none;
   border-radius: 0px;
   margin-top: 0px;
+}
+
+._title_xd2v0_64 {
+  font-family: Besley, serif, sans-serif;
+  font-size: var(--fontSizeLarge);
+}
+
+._label_hkyf8_43 {
+  color: var(--colorNeutral900);
+  font-size: var(--fontSizeNormal);
+  font-weight: var(--fontWeightLightBold);
+}
+
+._description_hkyf8_49 {
+  color: var(--colorNeutral500);
+  font-size: var(--fontSizeSmall);
 }
 
 @media only screen and (max-width: 768px) {
