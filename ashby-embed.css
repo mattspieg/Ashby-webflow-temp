@@ -439,6 +439,10 @@ b, strong {
   font-size: var(--fontSizeLarge);
 }
 
+body ._fieldEntry_hkyf8_29 {
+  margin-bottom: 40px;
+}
+
 ._input_1wkz4_28 {
   border-top-width: 0px;
   border-right-width: 0px;
@@ -506,6 +510,7 @@ b, strong {
 ._label_hkyf8_43 {
   color: var(--colorNeutral900);
   font-weight: var(--fontWeightLightBold);
+  margin-bottom: var(--spacingSmall); 
 }
 
 ._description_hkyf8_49 {
@@ -517,11 +522,12 @@ b, strong {
   align-items: center;
 }
 
+._container_101oc_29 {
+  padding: var(--spacingLarge) 0px;
+}
+
 @media only screen and (max-width: 768px) {
   ._descriptionText_4fqrp_201 ol, ._descriptionText_4fqrp_201 ul {
     margin: var(--spacingNormal) 0 var(--spacingNormal) var(--spacingNormal);
-  }
-  ._container_101oc_29 {
-    padding: var(--spacingLarge) 0px;
   }
 }
