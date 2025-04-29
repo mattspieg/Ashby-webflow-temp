@@ -160,6 +160,11 @@
   --colorSolidGray11: #646464;
   --colorSolidGray12: #202020;
 }
+@media only screen and (max-width: 768px) {
+  ::root {
+    --fontSizeHuge: 40px;
+  }
+}
 
 /* ========================= */
 /* Basic Elements */
@@ -335,8 +340,13 @@ b, strong {
 .ashby-job-posting-heading {
   font-family: Besley, serif, sans-serif;
   font-weight: var(--fontWeightNormal);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.03em;
   font-size: var(--fontSizeHuge);
+}
+@media only screen and (max-width: 768px) {
+  .ashby-job-posting-heading {
+    letter-spacing: -0.02em;
+  }
 }
 
 /* The left pane of the job posting, with the job posting details */
@@ -489,4 +499,10 @@ b, strong {
   box-shadow: none;
   border-radius: 0px;
   margin-top: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  ul {
+    padding-inline-start: 16px;
+  }
 }
