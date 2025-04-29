@@ -13,22 +13,22 @@
     --colorPrimary600: orange !important;
 
     /*  The max width of the job board container */
-    --widthMaxJobBoard: 800px;
+    --widthMaxJobBoard: 960px;
 
     /*  The max width of the application form section */
     /* --widthMaxJobBoard: 800px; */
 
     /*  Container border radius */
-    --borderRadiusContainer: 10px;
+    --borderRadiusContainer: 0px;
 
     /*  Border radius of control elements (e.g. input boxes) */
-    --borderRadiusControl: 10px;
+    --borderRadiusControl: 0px;
 
     /*  Button border radius */
-    --borderRadiusButton: 10px;
+    --borderRadiusButton: 48px;
 
     /*  Font families */
-    --fontFamily: "Whitney SSm", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Helvetica", "Arial", "Apple Color Emoji", "Segoe UI Emoji", sans-serif ;
+    --fontFamily: "Inter", "Whitney SSm", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Helvetica", "Arial", "Apple Color Emoji", "Segoe UI Emoji", sans-serif ;
 
     --colorAppBackground: #f7f8fa;
   }
