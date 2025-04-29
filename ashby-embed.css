@@ -407,9 +407,9 @@ b, strong {
   color: var(--colorNeutral700);
 }
 
-._section_101oc_37 p {
+._section_101oc_37>p {
   font-family: beseley;
-  font-size: var(--fontSizeXxlarge);
+  font-size: var(--fontSizeLarge);
 }
 
 ._button_8wvgw_29:hover, ._button_8wvgw_29:active {
