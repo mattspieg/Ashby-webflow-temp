@@ -297,12 +297,12 @@ b, strong {
 .ashby-job-posting-brief {
   margin-left: 0px !important;
   background-color: transparent;
-  padding: 0px;
+  padding: 0px !important;
 }
 
 .ashby-job-posting-brief-list>a {
   display: flex;
-  padding: var(--spacingXlarge) 0px !important;
+  padding: var(--spacingXlarge) 0px;
   justify-content: space-between;
   align-items: center;
   border-top: var(--borderWidthNormal) solid var(--colorNeutral200) !important;
