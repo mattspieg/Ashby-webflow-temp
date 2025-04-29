@@ -180,7 +180,7 @@ body {
   background: transparent;
 }
 footer {
-  display: none;
+  display: none !important;
 }
 
 /* Application autofill input's base layer element. This contains standard copy, a CTA button, and potential validation alerts. */
