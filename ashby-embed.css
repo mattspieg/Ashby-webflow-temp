@@ -174,7 +174,7 @@
 }
 
 html{
-  --colorPrimary600: var(--colorNeutral600) !important;
+  --colorPrimary600: #686963 !important;
 }
 body {
   background: transparent;
