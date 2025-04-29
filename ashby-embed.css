@@ -53,8 +53,8 @@
     --colorInfo1000: hsl(208deg 100% 47.3%);
     --colorInfo1100: hsl(211deg 100% 43.2%);
     --colorInfo1200: hsl(211deg 100% 15%);
-    --colorNeutralShadow: rgb(28 26 51 / 25%);
-    --colorPrimaryShadow: rgb(24 20 87 / 25%);
+    --colorNeutralShadow: rgba(156, 158, 148, 0.25);
+    --colorPrimaryShadow: rgba(156, 158, 148, 0.25);
     --colorNeutral100Transparent: rgb(248 247 250 / 0%);
     --colorNeutral600Transparent: rgb(125 134 153 / 25%);
     --colorShadowPrimaryXLight: rgb(38 70 204 / 10%);
@@ -409,4 +409,8 @@ b, strong {
 
 ._section_101oc_37 p {
   font-family: beseley;
+}
+
+._button_8wvgw_29:hover, ._button_8wvgw_29:active {
+  box-shadow: none;
 }
