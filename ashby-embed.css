@@ -173,9 +173,6 @@
     --colorAppBackground: #f7f8fa;
 }
 
-html{
-  --colorPrimary600: #686963 !important;
-}
 body {
   background: transparent;
   color: var(--colorNeutral500);
@@ -400,6 +397,10 @@ b, strong {
 
 ._button_8wvgw_29:hover, ._button_8wvgw_29:active {
   background-color: var(--colorNeutral800);
+}
+
+._button_8wvgw_29 svg { 
+  color: white;
 }
 
 ._heading_101oc_53 {
