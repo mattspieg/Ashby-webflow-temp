@@ -250,18 +250,11 @@
   font-family: Besley, serif, sans-serif;
   font-weight: var(--fontWeightNormal);
   font-size: var(--fontSizeXlarge);
+  color: var(--colorGray900);
   margin-left: 0px;
   display: inline;
 }
-.ashby-department-heading::before {
-  content: "";
-  display: inline-block;
-  width: 1.2em;
-  height: 1.2em;
-  background-color: var(--colorGray900);
-  margin-right: 8px;
-  vertical-align: middle;
-}
+
 
 /* The heading of a single team. */
 .ashby-department-heading-level {}
@@ -294,6 +287,11 @@
   background-color: transparent;
   transition: background-color 0.3s ease;
   margin-left: 0px;
+  border-radius: 8px;
+  border: 1px solid var(--colorGray200);
+}
+.ashby-job-posting-brief:last-child {
+  border-bottom: 0px solid var(--colorGray200);
 }
 .ashby-job-posting-brief:hover {
   background-color: var(--colorNeutral100A);
