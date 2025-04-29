@@ -331,7 +331,11 @@ footer {
 }
 
 /* The main header on the job posting page */
-.ashby-job-posting-header {}
+.ashby-job-posting-header {
+  font-family: Besley, serif, sans-serif;
+  font-weight: var(--fontWeightNormal);
+  letter-spacing: -0.01em;
+}
 
 /* The heading of a job post */
 .ashby-job-posting-heading {}
@@ -368,6 +372,7 @@ footer {
 
 ._tab_4fqrp_30 {
   color: var(--colorGray600);
+  font-family: Besley, serif, sans-serif;
 }
 
 ._tab_4fqrp_30:not(._active_4fqrp_60):hover {
