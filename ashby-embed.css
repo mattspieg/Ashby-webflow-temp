@@ -439,7 +439,7 @@ b, strong {
 
 ._section_101oc_37 > p {
   font-family: Besley;
-  font-size: var(--fontSizeLarge);
+  font-size: var(--fontSizeNormal);
 }
 
 body ._fieldEntry_hkyf8_29 {
@@ -527,6 +527,10 @@ body ._fieldEntry_hkyf8_29 {
 
 ._container_101oc_29 {
   padding: var(--spacingLarge) 0px;
+}
+
+._descriptionText_4fqrp_201 ol, ._descriptionText_4fqrp_201 ul {
+  margin: var(--spacingNormal) 0 var(--spacingNormal) var(--spacingXlarge);
 }
 
 @media only screen and (min-width: 768px) {
