@@ -10,7 +10,7 @@
     /*  Lighter primary color
     WARNING - This can be set in the Ashby admin under theme settings!
     If you modify, you should make sure your colors work with the settings there. */
-    --colorPrimary600: orange;
+    --colorPrimary600: orange !important;
 
     /*  The max width of the job board container */
     --widthMaxJobBoard: 800px;
