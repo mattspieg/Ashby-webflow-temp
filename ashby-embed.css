@@ -176,6 +176,10 @@
     --colorAppBackground: #f7f8fa;
   }
 
+body {
+  background: transparent;
+}
+
 /* Application autofill input's base layer element. This contains standard copy, a CTA button, and potential validation alerts. */
 .ashby-application-form-autofill-input-base-layer {}
 
@@ -286,7 +290,7 @@
   padding: 32px 0px;
   background-color: transparent;
   transition: background-color 0.3s ease;
-  margin-left: 0px;
+  margin-left: 0px !important;
   border-radius: 8px;
 }
 
