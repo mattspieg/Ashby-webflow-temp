@@ -382,7 +382,10 @@ footer {
 
 ._tab_4fqrp_30:not(._active_4fqrp_60):hover {
   border-bottom-color: var(--colorGray200);
-  color: var(--colorGray500);
+  color: var(--colorGray700);
+}
+._tab_4fqrp_30._active_4fqrp_60 {
+  color: var(--colorGray900);
 }
 
 ._button_8wvgw_29 {
