@@ -325,10 +325,10 @@ b, strong {
 
 .ashby-job-posting-brief-list>a::after {
   content: "Apply";
-  display: block;
   border-radius: 999px;
   font-weight: var(--fontWeightLightBold);
   font-size: var(--fontSizeNormal);
+  line-height: 1.25;
   padding: 10px 40px;
   background-color: var(--colorNeutral100);
   color: var(--colorNeutral900);
