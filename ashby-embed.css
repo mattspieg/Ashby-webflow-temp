@@ -299,22 +299,22 @@ b, strong {
   background-color: transparent;
   transition: all .3s ease;
   margin-left: 0px !important;
-  border-top: var(--borderWidthNormal) solid var(--colorNeutral200);
+  border-top: var(--borderWidthNormal) solid var(--colorNeutral200) !important;
 }
 
 .ashby-job-posting-brief:hover {
   background-color: var(--colorNeutral100A);
   border-radius: 8px !important;
-  border-top: var(--borderWidthNormal) solid transparent;
+  border-top: var(--borderWidthNormal) solid transparent !important;
   padding: var(--spacingXlarge) var(--spacingLarge) !important;
 }
 
 .ashby-job-posting-brief-list>a:first-child .ashby-job-posting-brief {
-  border-top: var(--borderWidthNormal) solid transparent;
+  border-top: var(--borderWidthNormal) solid transparent !important;
 }
 
 .ashby-job-posting-brief-list>a:hover + a .ashby-job-posting-brief {
-  border-top: var(--borderWidthNormal) solid transparent;
+  border-top: var(--borderWidthNormal) solid transparent !important;
 }
 
 /* The heading of a department name. Departments group teams. */
