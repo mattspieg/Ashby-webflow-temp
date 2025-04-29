@@ -147,12 +147,12 @@
     /*  Darker primary color
     WARNING - This can be set in the Ashby admin under theme settings!
     If you modify, you should make sure your colors work with the settings there. */
-   /* --colorPrimary900: darkorange !important;
+    --colorPrimary900: var(--colorGray900) !important;
 
     /*  Lighter primary color
     WARNING - This can be set in the Ashby admin under theme settings!
     If you modify, you should make sure your colors work with the settings there. */
-    /*--colorPrimary600: orange !important;*/
+    --colorPrimary600: var(--colorGray600) !important;
 
 
     /*  The max width of the job board container */
