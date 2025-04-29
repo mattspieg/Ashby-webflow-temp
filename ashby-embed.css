@@ -175,6 +175,7 @@ footer {
 
 b, strong {
   font-weight: var(--fontWeightMediumBold);
+  color: var(--colorNeutral600);
 }
 
 
