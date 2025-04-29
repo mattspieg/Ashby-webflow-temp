@@ -297,6 +297,7 @@ b, strong {
 .ashby-job-posting-brief {
   margin-left: 0px !important;
   background-color: transparent;
+  padding: 0px;
 }
 
 .ashby-job-posting-brief-list>a {
