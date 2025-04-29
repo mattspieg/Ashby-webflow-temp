@@ -325,7 +325,9 @@ b, strong {
 
 /* The container for the list of job post briefings. */
 .ashby-job-posting-brief-list {
-  margin-bottom: 32px;
+  margin-bottom: var(--spacingXlarge);
+  margin-top: var(--spacingXsmall);
+
 }
 
 /* The title of the job posting in the details pane. */
