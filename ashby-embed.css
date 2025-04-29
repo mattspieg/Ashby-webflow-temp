@@ -135,7 +135,9 @@
 }
 
 /* The heading of a department name. Departments group teams. */
-.ashby-job-posting-brief-department-heading {}
+.ashby-job-posting-brief-department-heading {
+  font-family: Besley, serif, sans-serif;
+}
 
 /* The heading of a single team. */
 .ashby-job-posting-brief-department-heading-level {}
