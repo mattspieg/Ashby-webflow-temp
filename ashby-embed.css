@@ -310,20 +310,20 @@ b, strong {
   background-color: transparent;
 }
 
-.ashby-job-posting-brief-list>a:hover {
+/*.ashby-job-posting-brief-list>a:hover {
   border-top: var(--borderWidthNormal) solid transparent !important;
   padding: var(--spacingXlarge) var(--spacingLarge) !important;
   background-color: var(--colorNeutral100A);
   border-radius: 8px !important;
-}
+}*/
 
 .ashby-job-posting-brief-list>a:first-child {
   border-top: var(--borderWidthNormal) solid transparent !important;
 }
 
-.ashby-job-posting-brief-list>a:hover + a {
+/*.ashby-job-posting-brief-list>a:hover + a {
   border-top: var(--borderWidthNormal) solid transparent !important;
-}
+}*/
 
 .ashby-job-posting-brief-list>a::after {
   content: "Apply";
