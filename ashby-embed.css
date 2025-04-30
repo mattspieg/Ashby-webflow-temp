@@ -337,7 +337,7 @@ b, strong {
   transition: all .3s ease;
 }
 
-.ashby-job-posting-brief-list>a::after:hover {
+.ashby-job-posting-brief-list>a:hover::after {
   background-color: var(--colorNeutral900);
   color: white;
 }
