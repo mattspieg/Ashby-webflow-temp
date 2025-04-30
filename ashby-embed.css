@@ -285,6 +285,7 @@ b, strong {
   font-weight: var(--fontWeightNormal);
   font-size: var(--fontSizeXlarge);
   letter-spacing: -0.01em;
+  margin-top: 0 !important;
 }
 
 /* The count of job postings on the job board. */
@@ -569,6 +570,10 @@ body ._fieldEntry_hkyf8_29 {
 
 ._descriptionText_4fqrp_201 ol, ._descriptionText_4fqrp_201 ul {
   margin: var(--spacingNormal) 0 var(--spacingNormal) var(--spacingXlarge);
+}
+
+._section_12ylk_341 {
+  padding-top: 0;
 }
 
 @media only screen and (min-width: 768px) {
