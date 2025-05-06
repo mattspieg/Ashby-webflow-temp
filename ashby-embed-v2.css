@@ -268,7 +268,9 @@ b, strong {
 
 
 /* The heading of a single team. */
-.ashby-department-heading-level {}
+.ashby-department-heading-level {
+  color: var(--colorNeutral950);
+}
 
 /* The button which allows users to navigate from an individual posting back to the list of all job postings. */
 .ashby-job-board-back-to-all-jobs-button {}
@@ -286,6 +288,7 @@ b, strong {
   font-size: var(--fontSizeXlarge);
   letter-spacing: -0.01em;
   margin-top: 0 !important;
+  color: var(--colorNeutral950);
 }
 
 /* The count of job postings on the job board. */
