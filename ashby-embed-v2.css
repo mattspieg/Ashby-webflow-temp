@@ -515,6 +515,7 @@ body ._fieldEntry_hkyf8_29 {
       border: var(--borderWidthBold) dashed var(--colorNeutral200);
   }
 }
+
 ._input_1wkz4_28:not([data-disabled=true]):focus-within {
   outline-width: 0px;
 }
@@ -553,6 +554,7 @@ body ._fieldEntry_hkyf8_29 {
   color: var(--colorNeutral950);
   margin-bottom: 72px;
 }
+
 ._topDescription_12ylk_30 h1 strong {
   color: inherit;
   font-weight: inherit;
@@ -613,5 +615,12 @@ body ._fieldEntry_hkyf8_29 {
     align-items: start;
     gap: 24px;
   }
+  ._topDescription_12ylk_30 h1 {
+    font-size: var(--fontSizeXxxxlarge);
+    margin-bottom: 64px;
+  }
+  ._topDescription_12ylk_30 {
+    margin-bottom: 64px;
+  }  
 }
 
