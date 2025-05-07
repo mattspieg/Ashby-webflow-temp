@@ -610,17 +610,24 @@ body ._fieldEntry_hkyf8_29 {
   ._descriptionText_4fqrp_201 ol, ._descriptionText_4fqrp_201 ul {
     margin: var(--spacingNormal) 0 var(--spacingNormal) var(--spacingNormal);
   }
+  
   .ashby-job-posting-brief-list>a {
     flex-direction: column;
     align-items: start;
     gap: 24px;
   }
+
   ._topDescription_12ylk_30 h1 {
     font-size: var(--fontSizeXxxxlarge);
     margin-bottom: 24px;
   }
+
   ._topDescription_12ylk_30 {
     margin-bottom: 48px;
-  }  
+  }
+
+  ._topDescription_12ylk_30 img[src="https://app.ashbyhq.com/api/images/user-content/f09eca50-aee8-4568-864c-30214f0f22a3/1700bc3e-7029-4c69-909c-3a77bbb8c3b4/68125465f6a9cbc21039b299_careers-Illustration.svg"] {
+    max-height: 10rem;
+  }
 }
 
